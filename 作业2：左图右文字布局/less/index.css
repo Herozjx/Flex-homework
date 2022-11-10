@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 600px;
+  height: 200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #dddddd;
+}
+.box .tel {
+  width: 200px;
+  height: 200px;
+}
+.box .tel img {
+  width: 100%;
+  height: 100%;
+}
+.box .text {
+  width: 370px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.box .text span {
+  font-size: 13px;
+}
+.box .text .btn {
+  width: 130px;
+  height: 35px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #87ceeb;
+}
